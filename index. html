@@ -30,7 +30,7 @@
             border-radius: 12px;
             padding: 15px;
             transition: transform 0.2s;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
         }
         .card:active { transform: scale(0.95); }
         
@@ -53,4 +53,22 @@
 <body>
 
     <h1>Flash-Gold-BS</h1>
-    <p class="subtitle">
+    <p class="subtitle">Rápido y Seguro | San Carlos, Cojedes</p>
+
+    <div class="container">
+        <div class="card">
+            <div class="gold-icon">💰</div>
+            <span class="name">105 Oro</span>
+            <span class="price">Bs 616</span>
+            <a href="https://wa.me/584160256643?text=Hola!%20Quiero%20comprar%20105%20Oro" class="buy-btn">COMPRAR</a>
+        </div>
+
+        <div class="card">
+            <div class="gold-icon">💰</div>
+            <span class="name">320 Oro</span>
+            <span class="price">Bs 1.870</span>
+            <a href="https://wa.me/584160256643?text=Hola!%20Quiero%20comprar%20320%20Oro" class="buy-btn">COMPRAR</a>
+        </div>
+
+        <div class="card">
+            <div class="gold-icon">💰</div>
