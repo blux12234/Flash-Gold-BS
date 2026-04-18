@@ -3,41 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flash Gold BS | Recargas</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Flash-Gold-BS | Tienda Oficial</title>
+    <style>
+        body {
+            background-color: #0f0f13;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 { color: #00ffcc; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 5px; }
+        p.subtitle { color: #888; margin-bottom: 30px; font-size: 0.9em; }
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background: #1a1a24;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 15px;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .card:active { transform: scale(0.95); }
+        
+        .gold-icon { font-size: 28px; margin-bottom: 10px; }
+        .name { font-weight: bold; display: block; margin-bottom: 5px; font-size: 1.1em; }
+        .price { color: #00ffcc; font-size: 1.2em; font-weight: bold; display: block; margin-bottom: 10px; }
+        
+        .buy-btn {
+            display: block;
+            background: #00ffcc;
+            color: #000;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 0.85em;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>FLASH GOLD <span>BS</span></h1>
-            <p>Recargas rápidas y seguras por ID</p>
-        </header>
 
-        <section class="form-group">
-            <label for="player-id">ID de Jugador:</label>
-            <input type="text" id="player-id" placeholder="Ingresa tu ID de Blood Strike" required>
-        </section>
-
-        <section class="grid-packs">
-            <div class="pack" onclick="selectPack(100, 0.99)">
-                <h3>100 Gold</h3>
-                <p>$0.99</p>
-            </div>
-            <div class="pack" onclick="selectPack(500, 4.99)">
-                <h3>500 Gold</h3>
-                <p>$4.99</p>
-            </div>
-            <div class="pack" onclick="selectPack(1000, 9.50)">
-                <h3>1000 Gold</h3>
-                <p>$9.50</p>
-            </div>
-        </section>
-
-        <button id="btn-pay" class="btn-disabled" disabled onclick="processOrder()">
-            Continuar con la Recarga
-        </button>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
+    <h1>Flash-Gold-BS</h1>
+    <p class="subtitle">
