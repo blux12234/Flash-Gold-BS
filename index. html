@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Gold BS | Recargas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FLASH GOLD <span>BS</span></h1>
+            <p>Recargas rápidas y seguras por ID</p>
+        </header>
+
+        <section class="form-group">
+            <label for="player-id">ID de Jugador:</label>
+            <input type="text" id="player-id" placeholder="Ingresa tu ID de Blood Strike" required>
+        </section>
+
+        <section class="grid-packs">
+            <div class="pack" onclick="selectPack(100, 0.99)">
+                <h3>100 Gold</h3>
+                <p>$0.99</p>
+            </div>
+            <div class="pack" onclick="selectPack(500, 4.99)">
+                <h3>500 Gold</h3>
+                <p>$4.99</p>
+            </div>
+            <div class="pack" onclick="selectPack(1000, 9.50)">
+                <h3>1000 Gold</h3>
+                <p>$9.50</p>
+            </div>
+        </section>
+
+        <button id="btn-pay" class="btn-disabled" disabled onclick="processOrder()">
+            Continuar con la Recarga
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
