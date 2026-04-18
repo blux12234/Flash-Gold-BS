@@ -7,7 +7,7 @@ Bienvenido al repositorio oficial de nuestra plataforma de recargas de Oro.
 
 ## 🚀 Acceso a la Tienda
 Puedes ver nuestro catálogo actualizado y realizar tus pedidos aquí:
-👉 **[ENTRAR A LA TIENDA OFICIAL](https://blux12234.github.io/Flash-Gold-BS/.)**
+👉 **[ENTRAR A LA TIENDA OFICIAL](https://blux12234.github.io/Flash-Gold-BS/index.html)**
 
 ---
 
